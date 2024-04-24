@@ -1,0 +1,27 @@
+section {
+  .container{
+    display: flex;
+    justify-content: space-between;
+
+    img, .text-box{
+      margin-top: 50px;
+    }
+
+    .text-box{
+      width: 45%;
+      letter-spacing: 1px;
+      
+      h2{
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      p{
+        font-weight: lighter;
+        font-size: 15px;
+        line-height: 25px;
+      }
+    }
+
+  }
+}

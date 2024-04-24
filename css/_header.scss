@@ -1,0 +1,38 @@
+header{
+  background-color: #dcdde1;
+
+  .material-symbols-outlined{
+    display: none;
+  }
+}
+.container{
+  
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  h1{
+    margin-left: 20px;
+    font-size: 33px;
+  }
+
+  li{
+    list-style: none;
+    display: inline;
+  }
+
+  a{
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    cursor: pointer;
+    
+    &:hover{
+      border-bottom: 1px solid #000;
+    }
+  }
+}

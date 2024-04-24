@@ -1,0 +1,74 @@
+.contato{
+  h2{
+    text-align: center;
+    align-items: center;
+    width: 100%;
+  }
+}
+
+.contacts {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  
+  .text-box{
+    max-width: 100%;
+    text-align: center;
+    margin-left: 500px;
+    
+    h2{
+      color: #000;
+    }
+  }
+  
+  form{
+    display: grid;
+    margin-top: 70px;
+    width: 200px;
+
+    label{
+      font-size: 18px;
+    }
+
+    input {
+      padding: 6px 0;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #000;
+    }
+    
+    textarea{
+      resize: none;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      border: 1px solid #000;
+    }
+
+  }
+
+  button{
+    padding: 10px;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #44BD32;
+    border: none;
+    border-radius: 5px;
+  
+    &:hover{
+      transform: scale(1.1);
+      transition: all .55s ease;
+    }
+  }
+
+  .map{
+    
+    iframe {
+      border-radius: 50px;
+      margin-top: 70px;
+      
+    }
+  }
+
+}
