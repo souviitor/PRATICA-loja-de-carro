@@ -1,5 +1,58 @@
-@import 'reset';
-@import 'header';
-@import 'about';
-@import 'estoque';
-@import 'contato';
+@import "reset";
+@import "header";
+@import "about";
+@import "estoque";
+@import "contato";
+
+@media (max-width: 676px) {
+  header {
+    .material-symbols-outlined {
+      display: flex;
+      justify-content: end;
+      margin-right: 30px;
+    }
+
+    .container {
+      width: 90%;
+
+      .nav {
+        display: flex;
+        margin-top: 20px;
+
+        h1 {
+          font-size: 22px;
+        }
+      }
+    }
+
+    menu {
+      display: none;
+    }
+  }
+
+  #setcar {
+    width: 100%;
+  }
+}
+
+section .container img {
+  width: 350px;
+  height: 350px;
+}
+
+#about {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+
+  .text-box {
+    width: 100%;
+    text-align: center;
+
+    p {
+      text-align: start;
+      width: 100%;
+      margin-left: 10px;
+    }
+  }
+}
